@@ -1,0 +1,14 @@
+.paperWrapper {
+  margin-bottom: 20px;
+
+  .paperContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .btnsGroup {
+      > button {
+        margin-left: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.libraryList {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  li {
+    border-top: 1px solid #d1d1d1;
+
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+  }
+}
+.mainMenu {
+  width: 100%;
+  min-width: 792px;
+  display: flex;
+  justify-content: flex-end;
+  .btnsWrapper {
+    & > :first-child {
+      margin-right: 15px;
+    }
+  }
+}
+.heading {
+  margin: 24px 0;
+}
+.sectionContainer {
+  width: 100%;
+}
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .sectionRow {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sectionItem {
+    flex-grow: 0;
+    width: 22%;
+    color: #6a6a6a;
+    margin-bottom: 32px;
+  }
+  .sectionLabel {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6a6a6a;
+    margin-bottom: 7px;
+    white-space: nowrap;
+  }
+  .sectionTitle {
+    font-weight: 600;
+  }
+  .divisionLink {
+    color: #11a8ea;
+    text-decoration: none;
+  }
+}
+.sectionFourthRow {
+  display: flex;
+  flex-wrap: wrap;
+  & > * {
+    margin-right: 10px;
+    width: 100px;
+  }
+}
+.sectionInfoRow {
+  display: flex;
+  justify-content: space-between;
+  .sectionItem {
+    width: 48%;
+  }
+}

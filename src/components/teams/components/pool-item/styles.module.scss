@@ -1,0 +1,44 @@
+.pool {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 25px;
+}
+
+.poolTitle {
+  margin: 0 0 8px;
+
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #1c315f;
+}
+
+.teamsTable {
+  margin-bottom: 6px;
+
+  background-color: #ffffff;
+
+  border-radius: 6px;
+
+  th {
+    height: 30px;
+
+    color: #6a6a6a;
+  }
+
+  td,
+  th {
+    width: 25%;
+
+    border-bottom: 2px solid #ececec;
+  }
+}
+
+.teamName {
+  padding-left: 32px;
+}
+
+.teamActions {
+  padding-left: 35px;
+}

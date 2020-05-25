@@ -1,0 +1,60 @@
+.section {
+  padding: 24px 15px;
+  margin: 0 0 50px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.diagnosticsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 290px;
+  color: #6a6a6a;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.scheduleTableWrapper {
+  display: flex;
+  position: relative;
+  padding-top: 12px;
+
+  .topAreaWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: -15px;
+    width: 100%;
+
+    .topBtnsWrapper {
+      width: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 20px;
+
+      h3 {
+        font-size: 16px;
+        color: #6a6a76;
+      }
+    }
+  }
+}
+
+.tableWrapper {
+  flex-grow: 1;
+
+  @media screen and (max-width: 1366px) {
+    max-width: 1060px;
+  }
+}
+
+.btnsWrapper {
+  display: flex;
+  justify-content: flex-end;
+}

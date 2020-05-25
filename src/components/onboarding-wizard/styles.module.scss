@@ -1,0 +1,25 @@
+.container {
+  width: 800px;
+  height: 100%;
+  margin: 20px;
+  color: #6a6a6a;
+  .headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .radioBtnsWrapper {
+    padding-top: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .btnWrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+  }
+  .message {
+    padding-top: 22px;
+  }
+}

@@ -1,0 +1,34 @@
+.headingContainer {
+  padding: 16px 0;
+
+  .title {
+    display: block;
+
+    font-size: 21px;
+    font-weight: 600;
+    color: #1c315f;
+    align-self: center;
+  }
+}
+.poolsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  ul {
+    padding: 0;
+  }
+  .pool {
+    width: 33%;
+    color: #6a6a6a;
+    padding-bottom: 20px;
+    .poolTitle {
+      font-weight: 600;
+      padding-bottom: 6px;
+    }
+  }
+}
+
+.teamList {
+  min-height: 92px;
+  height: 100%;
+}

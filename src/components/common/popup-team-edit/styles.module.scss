@@ -1,0 +1,129 @@
+.popupWrapper {
+  width: 700px;
+  padding: 25px 20px;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.editBtnWrapper {
+  flex-shrink: 0;
+
+  margin: 0;
+}
+
+.popupFormWrapper {
+  display: flex;
+
+  margin: 0 0 25px;
+}
+
+.mainInfo {
+  width: 40%;
+
+  padding-right: 15px;
+}
+
+.infoList,
+.contactList {
+  margin: 0 0 20px;
+  padding: 0;
+
+  color: #6a6a6a;
+  list-style: none;
+
+  .contactListDouble {
+    display: initial;
+
+    label {
+      display: flex;
+      flex-wrap: nowrap;
+
+      margin: 5px 0;
+    }
+  }
+
+  li {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+  }
+
+  b {
+    white-space: nowrap;
+    margin-right: 5px;
+  }
+
+  p {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 20px;
+  }
+
+  label {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  input {
+    width: inherit;
+    margin: 0;
+    padding: 0 5px;
+
+    font: inherit;
+
+    background-color: transparent;
+
+    border: 0;
+    border-bottom: 1px solid #6a6a6a;
+  }
+}
+
+.infoList {
+  margin-bottom: 20px;
+}
+
+.fieldList {
+  width: 60%;
+  max-height: 225px;
+  margin: 0;
+  padding: 0 20px 0 0;
+
+  list-style: none;
+
+  overflow-y: auto;
+}
+
+.gamesMessage {
+  display: flex;
+  align-items: center;
+
+  width: 50%;
+  margin: 0;
+
+  color: #6a6a6a;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btnsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BtnDeleteWrapper {
+  color: #ff0f19;
+}
+
+.popupBtnsWrapper {
+  display: flex;
+  justify-content: space-between;
+  & > :first-child {
+    margin-right: 15px;
+  }
+}

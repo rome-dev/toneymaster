@@ -1,0 +1,52 @@
+.container {
+  width: 1000px;
+  height: 600px;
+  margin: 20px;
+
+  .uploaderWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .checkboxWrapper {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .tableContainer {
+    height: 66%;
+    overflow-y: auto;
+    margin: 10px 0;
+  }
+
+  .selectWrapper {
+    & > div {
+      display: block;
+    }
+  }
+
+  .btnsWrapper {
+    display: flex;
+    justify-content: flex-end;
+    & > * {
+      margin-left: 10px;
+    }
+  }
+
+  .requiredFieldWrapper {
+    color: #6a6a6a;
+    .title {
+      font-weight: 600;
+    }
+  }
+
+  table th,
+  table td {
+    padding: 5px;
+  }
+}

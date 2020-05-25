@@ -1,0 +1,39 @@
+.container {
+  width: 510px;
+  padding: 32px;
+}
+.sectionTitle {
+  color: #1c315f;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+.buttonsGroup {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  & > :first-child {
+    margin-right: 15px;
+  }
+}
+
+.sectionItem {
+  color: #6a6a6a;
+  padding-bottom: 4px;
+  .title {
+    font-weight: 600;
+  }
+}
+
+.sectionRow {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+.sectionTitle {
+  color: #1c315f;
+  display: flex;
+  justify-content: space-between;
+  width: 747px;
+}

@@ -1,0 +1,46 @@
+.section {
+  width: 510px;
+  padding: 32px;
+}
+
+.titleWrapper {
+  margin: 0 0 15px;
+}
+
+.selectWrapper {
+  margin: 0 0 25px;
+}
+
+.inputsWrapper {
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+}
+
+.inputsList {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0 0 25px;
+
+  list-style: none;
+
+  li {
+    width: 45%;
+  }
+}
+
+.btnsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnDeleteWrapper {
+  color: #ff0f19;
+}
+
+.btnWrapper {
+  margin-left: 15px;
+}

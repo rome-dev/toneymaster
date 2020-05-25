@@ -1,0 +1,301 @@
+$sectionBodyPadding: 20px 0;
+
+.container {
+  width: 100%;
+  height: 100%;
+  min-width: 792px;
+
+  .headingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .paperWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > :first-child {
+      margin-right: 15px;
+    }
+    .btnsWrapper {
+      & > :first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .blockHeading {
+    font-size: 24px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    &:last-of-type {
+      & > :first-child {
+        margin-bottom: 34px;
+      }
+    }
+  }
+
+  .innerSpanText {
+    align-self: center;
+    color: #6a6a6a;
+    font-size: 16px;
+    margin-top: 38px;
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+
+  .piDetails {
+    width: 100%;
+    height: 100%;
+
+    & > div {
+      padding: $sectionBodyPadding;
+    }
+
+    .piDetailsFirst {
+      display: flex;
+      justify-content: space-between;
+      & > * {
+        &:first-child {
+          width: 30%;
+        }
+        &:nth-child(2) {
+          width: 19%;
+        }
+        width: 13%;
+      }
+    }
+
+    .piDetailsFirstContacts {
+      display: flex;
+      justify-content: space-between;
+
+      & > * {
+        width: 22%;
+      }
+    }
+
+    .piDetailsSecond {
+      display: flex;
+      justify-content: flex-start;
+
+      justify-content: space-between;
+      padding-bottom: 20px;
+      & > * {
+        width: 48%;
+      }
+    }
+
+    .gameTimesWrapper {
+      display: flex;
+      justify-content: space-between;
+
+      margin-bottom: 20px;
+
+      & > * {
+        width: 30%;
+      }
+    }
+
+    .piDetailsThird {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+
+    .piDetailsThirdArea {
+      display: flex;
+      justify-content: space-between;
+      & > * {
+        &:nth-of-type(1) {
+          width: 100%;
+        }
+      }
+      .embedBtn {
+        align-self: center;
+      }
+    }
+
+    .piSectionContainer {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      .piSection {
+        width: 60%;
+      }
+      .mapContainer {
+        width: 38%;
+      }
+    }
+  }
+
+  .esDetails {
+    width: 100%;
+    height: 100%;
+
+    & > div {
+      padding: $sectionBodyPadding;
+    }
+
+    .esDetailsFirst {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      .leagueDayContainer {
+        margin-top: 20px;
+      }
+    }
+
+    .esDetailsSecond {
+      display: flex;
+      justify-content: space-between;
+      height: 120px;
+    }
+  }
+
+  .playoffsDetails {
+    width: 100%;
+    height: 100%;
+
+    & > div {
+      padding-bottom: 20px;
+    }
+
+    .pdFirst {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .pdSecond {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 560px;
+    }
+
+    .pdThird {
+      display: flex;
+      flex-direction: column;
+
+      .dndTitleWrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        span {
+          width: 50%;
+          margin-right: 10px;
+          font-size: 16px;
+          font-weight: 600;
+          color: #6a6a6a;
+          margin-bottom: 7px;
+          white-space: nowrap;
+        }
+      }
+
+      .dndWrapper {
+        width: 100%;
+        display: flex;
+        margin: 0 0 20px 0;
+        flex-direction: row;
+
+        > div:nth-child(1) {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .pdFourth {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  .tooltipWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+  }
+
+  .checkBoxWrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .maDetails {
+    width: 100%;
+    height: 100%;
+
+    & > div {
+      padding-bottom: 20px;
+    }
+
+    .uploadWrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      min-width: 228px;
+
+      .uploadBlock {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+
+        .uploadBlockTitle {
+          font-size: 16px;
+          font-weight: 600;
+          color: #6a6a6a;
+          margin-bottom: 7px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.libraryBtn {
+  display: flex;
+  align-items: center;
+
+  padding: 0 8px;
+
+  color: #00a3ea;
+}
+
+.loadBtnsWrapper {
+  display: flex;
+}
+
+.btnsWrapper {
+  &:first-child {
+    margin-right: 15px;
+  }
+}
+.esDetailsThird {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  .waiverHubWrapper {
+    display: flex;
+    & > div {
+      display: block;
+    }
+  }
+}

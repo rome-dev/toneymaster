@@ -1,0 +1,38 @@
+@import 'src/styles/variables.scss';
+
+.wrapper {
+  width: 540px;
+  // height: 400px;
+  padding: 20px;
+
+  .mainBody {
+    .inputsWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .checkboxWrapper {
+      display: flex;
+      align-items: center;
+
+      .tooltipIcon {
+        width: 24px;
+        height: 22px;
+        color: #c9c9c9;
+      }
+    }
+  }
+
+  .buttonsWrapper {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    > button {
+      margin-left: 20px;
+    }
+  }
+}

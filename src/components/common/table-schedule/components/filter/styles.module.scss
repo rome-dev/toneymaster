@@ -1,0 +1,41 @@
+.scoringForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.buttonsWrapper {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  > button {
+    margin-right: 15px;
+    width: 80px;
+  }
+}
+
+.selectsContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 28px;
+
+  .selectWrapper {
+    width: 190px;
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+  }
+}
+
+.selectTitle {
+  color: #6a6a6a;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
