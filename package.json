@@ -45,7 +45,7 @@
     "@types/shortid": "0.0.29",
     "@types/uuid": "^3.4.7",
     "aws-amplify": "^2.2.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "connected-react-router": "^6.7.0",
     "date-fns": "^2.9.0",
     "file-saver": "^2.0.2",
